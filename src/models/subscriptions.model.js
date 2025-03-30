@@ -10,6 +10,7 @@ const subscriptionSchema = new Schema({
         ref : "User"
     },
 },
-    {timestamps : true});
+    { timestamps : true }
+);
 
-export const subscription = mongoose.model("Subscription", subscriptionSchema)
+export const Subscription = mongoose.model("Subscriptions", subscriptionSchema);

@@ -56,7 +56,7 @@ const userSchema = new Schema(
         },
     },
     { timestamps: true }
-)
+);
 
 // Runnig mongoose pre hook to execute before  using save event
 
